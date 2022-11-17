@@ -13,7 +13,7 @@ import Recipe from "./pages/Recipe";
 function App() {
   return (
     <React.Fragment>
-      <Router>
+      <Router basename="/food-recipes-project">
         <Header />
         <main className="container content">
           <Routes>
